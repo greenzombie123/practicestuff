@@ -9,7 +9,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         clean: true
     },
-    devtool: 'inline-source-map',
+    devtool: "eval-source-map",
     devServer: {
         static: './dist',
     },
@@ -39,4 +39,3 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js'],
     },
 }
-
